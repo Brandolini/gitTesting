@@ -1,0 +1,35 @@
+<%- layout ('layout') -%>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+
+                <% if (errors.length > 0) { %>
+                    <div class="alert alert-danger alert-dismissible">
+                        <button type="button" class="close" data-dismmiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <%= errors %>
+                    </div>
+                    <% } %>
+
+                        <form method="post" class="form-signin">
+                            <h2 class="form-signin-heading">Sign Up!</h2>
+                            <label for="inputName" class="sr-only">Username</label>
+                            <input type="text" id="inputName" name="name" class="form-control" placeholder="Username" required autofocus>
+                            <label for="inputEmail" class="sr-only">Email address</label>
+                            <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus>
+                            <label for="inputPassword" class="sr-only">Password</label>
+                            <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="remember-me"> Remember me
+                                </label>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block btn-success" type="submit">Submit</button>
+                        </form>
+            </div>
+
+
+        </div>

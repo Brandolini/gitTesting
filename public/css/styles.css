@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,600,500,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500;
+    font-size: 1.7em !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+.btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav li a {
+    font-size: 1.15em;
+}
+
+
+/*Sign Up/ Sign In Page*/
+
+.form-signin {
+    max-width: 350px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
